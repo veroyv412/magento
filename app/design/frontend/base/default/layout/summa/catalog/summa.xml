@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- design/frontend/base/default/layout/summa/catalog/summa.xml -->
+
+
+<layout>
+    <summa_index_handle>
+        <reference name="content">
+            <block type="summa/catalog_category_list"
+                   name="summa.catalog.categories.content"
+                   output="toHtml"
+                   template="summa/catalog/category/list.phtml"/>
+        </reference>
+    </summa_index_handle>
+
+</layout>

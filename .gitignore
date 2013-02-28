@@ -1,0 +1,13 @@
+backup/*
+var/*
+media/*
+app/etc/local.xml
+app/etc/config.xml
+import/*
+export/*
+robots.txt
+downloader/
+includes/
+*.zip
+.DS_Store
+

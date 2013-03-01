@@ -273,7 +273,12 @@
                 <setup>
                     <module>Phoenix_Moneybookers</module>
                 </setup>
-            </moneybookers_setup><templatef001_setup>
+            </moneybookers_setup><summa_catalog_setup><!-- namespace_module_setup becomes folder under sql dir -->
+                <setup>
+                    <module>Summa_Catalog</module>
+                    <class>Mage_Catalog_Model_Resource_Setup</class>
+                </setup>
+            </summa_catalog_setup><templatef001_setup>
                 <setup>
                     <module>TM_Templatef001</module>
                 </setup>

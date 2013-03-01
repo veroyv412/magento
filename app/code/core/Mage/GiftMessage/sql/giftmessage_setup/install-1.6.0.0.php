@@ -80,7 +80,7 @@ foreach ($entities as $entity) {
  * Add 'gift_message_available' attributes for entities
  */
 $installer->addAttribute('order_item', 'gift_message_available', $options);
-Mage::getResourceModel('catalog/setup', 'catalog_setup')->addAttribute(
+Mage::getResourceModel('catalog/setup', 'summa_catalog_setup')->addAttribute(
     Mage_Catalog_Model_Product::ENTITY, 'gift_message_available',
     array(
         'group'         => 'Gift Options',

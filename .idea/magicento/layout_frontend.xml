@@ -10328,8 +10328,15 @@ Emails
         <reference name="product.info">
             <block type="core/template"
                    name="summa.catalog.product.view"
-                   as="suma_product_description"
+                   as="summa_product_description"
                    template="summa/catalog/product/description.phtml"/>
+        </reference>
+
+        <reference name="product.info">
+            <block type="catalog/product_view"
+                   name="summa.catalog.product.brand"
+                   as="summa_product_brand"
+                   template="summa/catalog/product/brand.phtml"/>
         </reference>
     </catalog_product_view>
 </layout>

@@ -4,9 +4,10 @@
 <config>
     <modules>
         <Summa_Catalog>
-            <version>0.1.0</version>
+            <version>0.1.1</version>
         </Summa_Catalog>
     </modules>
+
     <global>
         <blocks>
             <summa_catalog> <!-- This is a class group -->
@@ -24,6 +25,15 @@
                 <class>Summa_Catalog_Model</class>
             </summa_catalog>
         </models>
+
+        <resources>
+            <summa_catalog_setup><!-- namespace_module_setup becomes folder under sql dir -->
+                <setup>
+                    <module>Summa_Catalog</module>
+                    <class>Mage_Catalog_Model_Resource_Setup</class>
+                </setup>
+            </summa_catalog_setup>
+        </resources>
     </global>
 
     <!-- Need to register frontend routers -->

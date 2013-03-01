@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="564451d6-2a22-4afb-bd1e-37b60d5d90ff" name="Default" comment="Refactorizando y mostrando una nueva descripcion a la PDP">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/training/template/catalog/product/view.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/training/template/summa/catalog/category/list.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/training/template/summa/catalog/product/description.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/etc/local.bk.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/design/frontend/base/default/template/summa/catalog/category/list.phtml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/magento.iml" afterPath="$PROJECT_DIR$/.idea/magento.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/magicento.xml" afterPath="$PROJECT_DIR$/.idea/magicento.xml" />
+    <list default="true" id="564451d6-2a22-4afb-bd1e-37b60d5d90ff" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Summa/Catalog/sql/summa_catalog_setup/mysql4-install-0.1.0.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Summa/Catalog/sql/summa_catalog_setup/mysql4-upgrade-0.1.0-0.1.1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/training/template/summa/catalog/product/brand.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/magicento/config.xml" afterPath="$PROJECT_DIR$/.idea/magicento/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/magicento/layout_frontend.xml" afterPath="$PROJECT_DIR$/.idea/magicento/layout_frontend.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Summa/Catalog/Block/Category/List.php" afterPath="$PROJECT_DIR$/app/code/local/Summa/Catalog/Block/Category/List.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Summa/Catalog/controllers/IndexController.php" afterPath="$PROJECT_DIR$/app/code/local/Summa/Catalog/controllers/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/core/Mage/GiftMessage/sql/giftmessage_setup/install-1.6.0.0.php" afterPath="$PROJECT_DIR$/app/code/core/Mage/GiftMessage/sql/giftmessage_setup/install-1.6.0.0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/core/Mage/Tax/sql/tax_setup/install-1.6.0.0.php" afterPath="$PROJECT_DIR$/app/code/core/Mage/Tax/sql/tax_setup/install-1.6.0.0.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Summa/Catalog/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/Summa/Catalog/etc/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/base/default/layout/summa/catalog/summa.xml" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/layout/summa/catalog/summa.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/modules/Summa_Catalog.xml" afterPath="$PROJECT_DIR$/app/etc/modules/Summa_Catalog.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/training/template/catalog/product/view.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/training/template/catalog/product/view.phtml" />
     </list>
     <ignored path="magento.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,8 +43,19 @@
       <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Summa/Catalog/etc/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="26" selection-start="260" selection-end="273" vertical-scroll-proportion="0.0">
+            <state line="32" column="60" selection-start="973" selection-end="1006" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql4-upgrade-0.1.0-0.1.1.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Summa/Catalog/sql/summa_catalog_setup/mysql4-upgrade-0.1.0-0.1.1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="31" selection-start="630" selection-end="633" vertical-scroll-proportion="0.5870842">
+              <folding>
+                <element signature="e#6#162#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,43 +63,7 @@
       <file leaf-file-name="summa.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/summa/catalog/summa.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="38" selection-start="450" selection-end="463" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/training/template/catalog/product/view.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="58" selection-start="2755" selection-end="2755" vertical-scroll-proportion="-13.458333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Summa/Catalog/controllers/IndexController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="1" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="List.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/code/local/Summa/Catalog/Block/Category/List.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="78" selection-start="204" selection-end="204" vertical-scroll-proportion="1.4814814">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/default/training/template/summa/catalog/category/list.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="38" selection-start="200" selection-end="200" vertical-scroll-proportion="-3.75">
+            <state line="27" column="45" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,28 +82,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/code/local/Summa/controllers/SummaController.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/summa/products/list.phtml" />
-        <option value="$PROJECT_DIR$/app/code/local/Summa/Block/Category/list.php" />
-        <option value="$PROJECT_DIR$/app/code/local/Summa/etc/config.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/base/default/layout/summa/summa.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Summa/controllers/IndexController.php" />
-        <option value="$PROJECT_DIR$/app/etc/modules/Summa_Catalog.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Summa/Catalog/etc/config.xml" />
-        <option value="$PROJECT_DIR$/app/code/local/Summa/Catalog/controllers/IndexController.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/summa/catalog/category/list.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/summa/catalog/product/description.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/view.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/base/default/layout/summa/catalog/summa.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/default/training/template/catalog/product/view.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/training/template/summa/catalog/category/list.phtml" />
         <option value="$PROJECT_DIR$/app/code/local/Summa/Catalog/Block/Category/List.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Summa/Resource/Eav/Mysql4/setup.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/training/template/summa/catalog/product/description.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/Summa/Catalog/Model/Resource/Eav/Mysql4/setup.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Summa/Catalog/Model/Resource/Eav/setup.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Summa/Catalog/sql/summa_catalog_setup/install-0.1.0.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Summa/Catalog/sql/summa_catalog_setup/mysql4-install-0.1.0.php" />
+        <option value="$PROJECT_DIR$/app/code/local/Summa/Catalog/Block/Product/View.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/base/default/layout/summa/catalog/summa.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/training/template/summa/catalog/product/brand.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/training/template/catalog/product/view.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/Summa/Catalog/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/local/Summa/Catalog/sql/summa_catalog_setup/mysql4-upgrade-0.1.0-0.1.1.php" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <option name="servers">
       <server host="magento.local" name="MagentoLocalDebugLocalServer" port="9000" />
+      <server host="magento.local" name="magento.local" />
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP5">
@@ -379,10 +348,6 @@
               <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -516,7 +481,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="summa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -602,7 +613,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="summa_catalog_setup" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -633,10 +648,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -696,49 +707,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Day" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Two" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="summa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Day" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Two" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -767,7 +736,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="editing.templates" />
     <property name="recentsLimit" value="5" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -789,6 +758,7 @@
       <recent name="$PROJECT_DIR$/app/design/frontend/default/training/template/page" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/code/local/Summa/Catalog/Model/Resource/Eav" />
       <recent name="$PROJECT_DIR$/app/design/frontend/base/default/template/summa/catalog" />
       <recent name="$PROJECT_DIR$/app/design/frontend/base/default/layout/summa/catalog" />
       <recent name="$PROJECT_DIR$/app/code/local/Summa/Catalog" />
@@ -859,6 +829,11 @@
       <created>1361538022304</created>
       <updated>1361538022304</updated>
     </task>
+    <task id="LOCAL-00001" summary="Refactorizando y mostrando una nueva descripcion a la PDP">
+      <created>1362154451097</created>
+      <updated>1362154451097</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -883,24 +858,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="719" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5212766" sideWeight="0.4969605" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.76241136" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.76241136" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.423159" sideWeight="0.67045456" order="0" side_tool="false" content_ui="tabs" x="1218" y="127" width="468" height="880" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24164134" sideWeight="0.23758866" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34465197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17553191" sideWeight="0.4969605" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4224924" sideWeight="0.5141844" order="0" side_tool="false" content_ui="tabs" x="1218" y="127" width="468" height="880" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16261399" sideWeight="0.4219858" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5780142" sideWeight="0.4969605" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3218391" sideWeight="0.113513514" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5212766" sideWeight="0.49772036" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6400709" sideWeight="0.49772036" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3243243" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5212766" sideWeight="0.4969605" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -964,100 +939,121 @@
           <line>1</line>
         </line-breakpoint>
       </breakpoints>
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/etc/modules/Summa_Catalog.xml">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/training/template/summa/catalog/product/brand.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="292" selection-end="292" vertical-scroll-proportion="0.3">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Summa/Catalog/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="1" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/day/two/custom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="25" selection-start="2329" selection-end="2333" vertical-scroll-proportion="0.4853229" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Customer/Block/Account/Dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="5" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.46201232">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Day/Two/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="51" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.40246406">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/view.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="35" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.030120483">
+        <state line="2" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="-1.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/default/training/template/catalog/product/view.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="58" selection-start="2755" selection-end="2755" vertical-scroll-proportion="-13.458333">
+        <state line="58" column="55" selection-start="2574" selection-end="2574" vertical-scroll-proportion="0.5148936">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/catalog.xml">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/sql/catalog_setup/mysql4-upgrade-0.6.40-0.7.0.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="55" selection-start="10665" selection-end="10665" vertical-scroll-proportion="0.20212767">
+        <state line="30" column="0" selection-start="1050" selection-end="1107" vertical-scroll-proportion="0.20547946">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/training/template/summa/catalog/category/list.phtml">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/sql/catalog_setup/mysql4-upgrade-0.7.1-0.7.2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="38" selection-start="200" selection-end="200" vertical-scroll-proportion="-3.75">
+        <state line="26" column="68" selection-start="991" selection-end="1032" vertical-scroll-proportion="0.08806262">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Summa/Catalog/etc/config.xml">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/data/catalog_setup/data-upgrade-1.6.0.0.8-1.6.0.0.9.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="26" selection-start="260" selection-end="273" vertical-scroll-proportion="0.0">
+        <state line="28" column="0" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.25083613">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Catalog/Product/Attribute/Edit/Tab/Main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="14" selection-start="1799" selection-end="1980" vertical-scroll-proportion="0.314346">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/sql/catalog_setup/mysql4-upgrade-0.7.2-0.7.3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="46" selection-start="1003" selection-end="1024" vertical-scroll-proportion="0.15060242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/sql/catalog_setup/mysql4-upgrade-0.7.0-0.7.1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="63" selection-start="1021" selection-end="1055" vertical-scroll-proportion="0.15060242">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/summa/catalog/summa.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="450" selection-end="463" vertical-scroll-proportion="0.0">
+        <state line="27" column="45" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/Summa/Catalog/Block/Category/List.php">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Summa/Catalog/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="78" selection-start="204" selection-end="204" vertical-scroll-proportion="1.4814814">
+        <state line="32" column="60" selection-start="973" selection-end="1006" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/Catalog/Product/AttributeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="95" selection-start="2329" selection-end="2365" vertical-scroll-proportion="2.8493152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Eav/Block/Adminhtml/Attribute/Edit/Main/Abstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="45" selection-start="3661" selection-end="3851" vertical-scroll-proportion="0.77602524">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Product/Attribute/Api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="35" selection-start="2613" selection-end="2618" vertical-scroll-proportion="0.5752427">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Resource/Setup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="624" column="0" selection-start="18969" selection-end="18969" vertical-scroll-proportion="0.119373776">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Eav/Model/Entity/Setup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="706" column="45" selection-start="22772" selection-end="22772" vertical-scroll-proportion="0.38747555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/Summa/Catalog/sql/summa_catalog_setup/mysql4-upgrade-0.1.0-0.1.1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="31" selection-start="630" selection-end="633" vertical-scroll-proportion="0.5870842">
+          <folding>
+            <element signature="e#6#162#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

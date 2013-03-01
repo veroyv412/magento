@@ -240,7 +240,7 @@ $installer->getConnection()->createTable($table);
 /**
  * Add tax_class_id attribute to the 'eav/attribute' table
  */
-$catalogInstaller = Mage::getResourceModel('catalog/setup', 'catalog_setup');
+$catalogInstaller = Mage::getResourceModel('catalog/setup', 'summa_catalog_setup');
 $catalogInstaller->addAttribute(Mage_Catalog_Model_Product::ENTITY, 'tax_class_id', array(
     'group'                      => 'Prices',
     'type'                       => 'int',

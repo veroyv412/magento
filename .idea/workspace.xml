@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="564451d6-2a22-4afb-bd1e-37b60d5d90ff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Summa/Catalog/sql/summa_catalog_setup/mysql4-install-0.1.0.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/local/Summa/Catalog/sql/summa_catalog_setup/mysql4-upgrade-0.1.0-0.1.1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/design/frontend/default/training/template/summa/catalog/product/brand.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/magicento/config.xml" afterPath="$PROJECT_DIR$/.idea/magicento/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/magicento/layout_frontend.xml" afterPath="$PROJECT_DIR$/.idea/magicento/layout_frontend.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/core/Mage/GiftMessage/sql/giftmessage_setup/install-1.6.0.0.php" afterPath="$PROJECT_DIR$/app/code/core/Mage/GiftMessage/sql/giftmessage_setup/install-1.6.0.0.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/core/Mage/Tax/sql/tax_setup/install-1.6.0.0.php" afterPath="$PROJECT_DIR$/app/code/core/Mage/Tax/sql/tax_setup/install-1.6.0.0.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Summa/Catalog/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/Summa/Catalog/etc/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/base/default/layout/summa/catalog/summa.xml" afterPath="$PROJECT_DIR$/app/design/frontend/base/default/layout/summa/catalog/summa.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/default/training/template/catalog/product/view.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/training/template/catalog/product/view.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/Summa/Catalog/sql/summa_catalog_setup/mysql4-upgrade-0.1.0-0.1.1.php" afterPath="$PROJECT_DIR$/app/code/local/Summa/Catalog/sql/summa_catalog_setup/mysql4-upgrade-0.1.0-0.1.1.php" />
     </list>
     <ignored path="magento.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,7 +42,7 @@
       <file leaf-file-name="mysql4-upgrade-0.1.0-0.1.1.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/code/local/Summa/Catalog/sql/summa_catalog_setup/mysql4-upgrade-0.1.0-0.1.1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="31" selection-start="630" selection-end="633" vertical-scroll-proportion="0.5870842">
+            <state line="12" column="72" selection-start="378" selection-end="378" vertical-scroll-proportion="0.3522505">
               <folding>
                 <element signature="e#6#162#0" expanded="true" />
               </folding>
@@ -1050,7 +1040,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Summa/Catalog/sql/summa_catalog_setup/mysql4-upgrade-0.1.0-0.1.1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="31" selection-start="630" selection-end="633" vertical-scroll-proportion="0.5870842">
+        <state line="12" column="72" selection-start="378" selection-end="378" vertical-scroll-proportion="0.3522505">
           <folding>
             <element signature="e#6#162#0" expanded="true" />
           </folding>

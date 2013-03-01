@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- app/code/local/Summa/Catalog/etc/config.xml -->
 
-
 <config>
+    <modules>
+        <Summa_Catalog>
+            <version>0.1.0</version>
+        </Summa_Catalog>
+    </modules>
     <global>
         <blocks>
             <summa_catalog> <!-- This is a class group -->

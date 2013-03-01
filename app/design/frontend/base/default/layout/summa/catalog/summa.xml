@@ -3,13 +3,12 @@
 
 
 <layout>
-    <summa_index_handle>
+    <summa_catalog_index_index>
         <reference name="content">
-            <block type="summa/catalog_category_list"
+            <block type="summa_catalog/category_list"
                    name="summa.catalog.categories.content"
-                   output="toHtml"
                    template="summa/catalog/category/list.phtml"/>
         </reference>
-    </summa_index_handle>
+    </summa_catalog_index_index>
 
 </layout>

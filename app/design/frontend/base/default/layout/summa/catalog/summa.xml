@@ -5,10 +5,23 @@
 <layout>
     <summa_catalog_index_index>
         <reference name="content">
+            <!--
+                [primer_part]/[segunda_part]
+                [<summa_catalog>] > Ej: linea 8 del config.xml
+                [Category/List.php] > seria el Path despues de Summa/Catalog/Block/ Category/List
+            -->
             <block type="summa_catalog/category_list"
                    name="summa.catalog.categories.content"
                    template="summa/catalog/category/list.phtml"/>
         </reference>
     </summa_catalog_index_index>
 
+    <catalog_product_view>
+        <reference name="product.info">
+            <block type="core/template"
+                   name="summa.catalog.product.view"
+                   as="suma_product_description"
+                   template="summa/catalog/product/description.phtml"/>
+        </reference>
+    </catalog_product_view>
 </layout>

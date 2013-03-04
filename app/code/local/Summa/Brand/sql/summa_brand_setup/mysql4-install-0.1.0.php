@@ -12,28 +12,25 @@ $installer = $this;
 
 $installer->startSetup();
 
-$data= array (
-    'attribute_set' =>  'Default',
-    'group' => 'General',
-    'type' => 'varchar',
-    'backend' => '',
-    'frontend' => '',
-    'label' => 'Brand',
-    'note' => 'Little note for the brand',
-    'input' => 'text',
-    'class' => '',
-    'source' => '',
-    'global' => Mage_Catalog_Model_Resource_Eav_Attribute::SCOPE_WEBSITE,
-    'visible' => true,
-    'required' => false,
-    'user_defined' => true,
-    'default' => '0',
-    'visible_on_front' => true,
-    'unique' => false,
-    'is_configurable' => false,
-    'used_for_promo_rules' => true
-);
+/**
+ * Create table 'foo_bar_baz'
+ */
+$table = $installer->getConnection()
+// The following call to getTable('foo_bar/baz') will lookup the resource for foo_bar (foo_bar_mysql4), and look
+// for a corresponding entity called baz. The table name in the XML is foo_bar_baz, so ths is what is created.
+    ->newTable($installer->getTable('summa_brand/brand'))
+    ->addColumn('id', Varien_Db_Ddl_Table::TYPE_INTEGER, null, array(
+        'identity'  => true,
+        'unsigned'  => true,
+        'nullable'  => false,
+        'primary'   => true,
+    ), 'ID')
+    ->addColumn('code', Varien_Db_Ddl_Table::TYPE_VARCHAR, 15, array(
+    'nullable'  => false,
+    ), 'Code')
+    ->addColumn('description', Varien_Db_Ddl_Table::TYPE_VARCHAR, 50, array(
+    'nullable'  => false,
+    ), 'Description');
 
-$installer->addAttribute('catalog_product','brand', $data);
-
+$installer->getConnection()->createTable($table);
 $installer->endSetup();

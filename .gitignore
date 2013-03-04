@@ -10,4 +10,4 @@ downloader/
 includes/
 *.zip
 .DS_Store
-
+.idea/*

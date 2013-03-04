@@ -115,7 +115,6 @@ class Summa_Brand_Adminhtml_BrandController extends Mage_Adminhtml_Controller_Ac
      */
     protected function _isAllowed()
     {
-        //return Mage::getSingleton('admin/session')->isAllowed('sales/foo_bar_baz');
-        return true;
+        return Mage::getSingleton('admin/session')->isAllowed('summa_brand');
     }
 }

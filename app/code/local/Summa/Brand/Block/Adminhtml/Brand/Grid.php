@@ -47,10 +47,17 @@ class Summa_Brand_Block_Adminhtml_Brand_Grid extends Mage_Adminhtml_Block_Widget
             )
         );
 
-        $this->addColumn('name',
+        $this->addColumn('code',
             array(
-                'header'=> $this->__('Name'),
-                'index' => 'name'
+                'header'=> $this->__('Code'),
+                'index' => 'code'
+            )
+        );
+
+        $this->addColumn('description',
+            array(
+                'header'=> $this->__('Description'),
+                'index' => 'description'
             )
         );
 

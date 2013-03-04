@@ -50,6 +50,7 @@ class Summa_Brand_Block_Adminhtml_Brand_Edit_Form extends Mage_Adminhtml_Block_W
             'label'     => Mage::helper('checkout')->__('Code'),
             'title'     => Mage::helper('checkout')->__('Code'),
             'required'  => true,
+            ''
         ));
 
         $fieldset->addField('description', 'text', array(

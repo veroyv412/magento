@@ -71,13 +71,13 @@
     <adminhtml>
         <layout>
             <updates>
-                <foo_bar>
+                <summa_brand>
                     <!--
                     We again keep a nice naming convention and make our module upgrade proof by placing it in a separate folder
                     - Since we are in the adminhtml node, this will look for the XML file in the app/design/adminhtml/default/default root folder
                     -->
-                    <file>summa_brand/brand.xml</file>
-                </foo_bar>
+                    <file>summa/brand/brand.xml</file>
+                </summa_brand>
             </updates>
         </layout>
     </adminhtml>

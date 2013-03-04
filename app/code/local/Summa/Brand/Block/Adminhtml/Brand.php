@@ -14,7 +14,8 @@ class Summa_Brand_Block_Adminhtml_Brand extends Mage_Adminhtml_Block_Widget_Grid
         // ie. foo_bar/adminhtml_baz
         $this->_blockGroup = 'summa_brand';
         $this->_controller = 'adminhtml_brand';
-        $this->_headerText = $this->__('Brand');
+        $this->_headerText = $this->__('Manage Brands');
+        $this->_addButtonLabel = 'Add New Brand';
 
         parent::__construct();
     }

@@ -12,25 +12,15 @@ $installer = $this;
 
 $installer->startSetup();
 
-/**
- * Create table 'foo_bar_baz'
- */
-$table = $installer->getConnection()
-// The following call to getTable('foo_bar/baz') will lookup the resource for foo_bar (foo_bar_mysql4), and look
-// for a corresponding entity called baz. The table name in the XML is foo_bar_baz, so ths is what is created.
-    ->newTable($installer->getTable('summa_brand/brand'))
-    ->addColumn('id', Varien_Db_Ddl_Table::TYPE_INTEGER, null, array(
-        'identity'  => true,
-        'unsigned'  => true,
-        'nullable'  => false,
-        'primary'   => true,
-    ), 'ID')
-    ->addColumn('code', Varien_Db_Ddl_Table::TYPE_VARCHAR, 15, array(
-    'nullable'  => false,
-    ), 'Code')
-    ->addColumn('description', Varien_Db_Ddl_Table::TYPE_VARCHAR, 50, array(
-    'nullable'  => false,
-    ), 'Description');
+$installer->run("
 
-$installer->getConnection()->createTable($table);
+DROP TABLE IF EXISTS {$this->getTable('summa_brand')};
+CREATE TABLE {$this->getTable('summa_brand')} (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `code` varchar(255) character set utf8 NOT NULL default '',
+  `description` varchar(255) character set utf8 NOT NULL default '',
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Product Brands';
+");
+
 $installer->endSetup();

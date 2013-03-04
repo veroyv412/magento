@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- Tomado de: http://markshust.com/2012/07/05/creating-magento-adminhtml-grids-simplified -->
+
 <config>
     <modules>
         <Summa_Brand>

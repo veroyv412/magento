@@ -2,7 +2,6 @@ backup/*
 var/*
 media/*
 app/etc/local.xml
-app/etc/config.xml
 import/*
 export/*
 robots.txt

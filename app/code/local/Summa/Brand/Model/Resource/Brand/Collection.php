@@ -12,4 +12,14 @@ class Summa_Brand_Model_Resource_Brand_Collection extends Mage_Core_Model_Resour
     {
         $this->_init('summa_brand/brand');
     }
+
+    /**
+     * Returns pairs code - description
+     *
+     * @return array
+     */
+    public function toOptionArray()
+    {
+        return $this->_toOptionArray('id', 'description');
+    }
 }

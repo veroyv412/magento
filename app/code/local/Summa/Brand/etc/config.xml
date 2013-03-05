@@ -5,7 +5,7 @@
 <config>
     <modules>
         <Summa_Brand>
-            <version>0.1.0</version>
+            <version>0.1.1</version>
         </Summa_Brand>
     </modules>
 
@@ -50,6 +50,7 @@
             <summa_brand_setup>
                 <setup>
                     <module>Summa_Brand</module>
+                    <class>Mage_Catalog_Model_Resource_Setup</class>
                 </setup>
             </summa_brand_setup>
         </resources>

@@ -26,4 +26,5 @@ if ($attribute) {
     $option['value']['op_6'][0] = 'Nike';
 
     $installer->addAttributeOption($option);
+
 }

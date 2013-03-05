@@ -11,4 +11,11 @@ class Summa_Brand_Model_Attribute_Source_Brand extends Mage_Eav_Model_Entity_Att
         }
         return $this->_options;
     }
+
+    public function toOptionArray()
+    {
+        $options = $this->getAllOptions();
+
+        return $options;
+    }
 }
